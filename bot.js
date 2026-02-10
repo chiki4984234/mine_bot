@@ -5,7 +5,7 @@ function createBot() {
         host: '88.198.2.26', // මෙතැනට අංක ටික විතරක් දෙන්න
         port: 33571,         // මෙතැනට තිත් දෙක නැතුව port එක විතරක් දෙන්න
         username: 'Chiki_admin',
-        version: false
+        version: '1.21.4'
     })
 
     bot.on('spawn', () => {
@@ -25,4 +25,5 @@ function createBot() {
 }
 
 createBot()
+
 
